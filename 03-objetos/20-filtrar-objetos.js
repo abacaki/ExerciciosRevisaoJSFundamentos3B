@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+const funcionarios = [
+    {nome: "Julia Mine", salario: 10000},
+    {nome: "Cris Mine", salario: 2800},
+    {nome: "Tex HS", salario: 7400},
+    {nome: "Luna", salario: 2000},
+    {nome: "Amora", salario: 1800},
+]
+console.log(funcionarios);
+
+const salarioAcima = funcionarios.filter((funcionario) => funcionario.salario >= 3000);
+console.log(salarioAcima);

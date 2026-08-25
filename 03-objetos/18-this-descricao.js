@@ -4,3 +4,12 @@
 //
 // Escreva sua solução abaixo:
 
+const curso = {
+    nome: "Desenvolvimento de Sistemas",
+    modalidade: "Back-End",
+    descrever(){
+        console.log(`O curso ${this.nome} tem a modalidade ${this.modalidade}`);
+    }
+}
+
+console.log(curso.descrever());
