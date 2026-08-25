@@ -4,3 +4,12 @@
 //
 // Escreva sua solução abaixo:
 
+const tarefas = [
+    {id: 101, descricao: "Lavar louça", concluida: true}, 
+    {id: 102, descricao: "Varrer o chão", concluida: true},
+    {id: 103, descricao: "Passar pano", concluida: false}
+]
+
+const json = JSON.stringify(tarefas);
+console.log(json);
+

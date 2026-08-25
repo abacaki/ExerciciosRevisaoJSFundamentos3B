@@ -6,3 +6,20 @@
 //
 // Escreva sua solução abaixo:
 
+const resposta = {
+        status: true, 
+        quantidade: 40, 
+        cliente: [
+            {nome: "Yuri"},
+            {nome: "Vick"}
+        ]
+    
+}
+
+console.log(resposta.status);
+const clientes = resposta.cliente
+
+
+clientes.forEach(a =>{    
+        console.log(a.nome)    
+})
