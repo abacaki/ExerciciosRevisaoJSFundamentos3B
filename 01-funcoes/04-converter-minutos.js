@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const conversao = function(minutos){
+    return minutos * 60;
+}
+
+console.log(`${conversao(7)} segundos`);
