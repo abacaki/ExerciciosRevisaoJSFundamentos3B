@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const smartphone = {
+    marca: "Samsung",
+    modelo: "M34",
+    armazenamento: 128,
+    ligado: true
+}
+
+console.log(smartphone);
