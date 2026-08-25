@@ -4,3 +4,7 @@
 //
 // Escreva sua solução abaixo:
 
+const stringJSON = '{"titulo":"Curso de Node.js","duracao":40,"ativo":true}';
+
+const json = JSON.parse(stringJSON);
+console.log(json.duracao);
