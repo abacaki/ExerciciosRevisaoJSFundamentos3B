@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const saldos = [120, 50, -20, 300, 75];
+
+const saldoNegativo = saldos.some((negativo) => negativo <=-1);
+console.log(saldoNegativo);
