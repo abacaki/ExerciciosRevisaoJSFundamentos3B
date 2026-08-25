@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+const alunos = [
+    {nome: "Anna", matricula:101},
+    {nome: "Beatriz", matricula:102},
+    {nome: "Camila", matricula:103},
+    {nome: "Daniela", matricula:104},
+]
+
+const localizar = alunos.find((aluno) => aluno.matricula === 103);
+console.log(localizar);
