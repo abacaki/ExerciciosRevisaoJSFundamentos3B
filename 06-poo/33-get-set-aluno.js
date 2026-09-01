@@ -5,19 +5,24 @@
 //
 // Escreva sua solução abaixo:
 
-// class Aluno {
-//     #nota;
+class Aluno {
+    #nota;
 
-//     constructor(nota){
-//         this.#nota = nota;
-//     }
+    constructor(nota){
+        this.#nota = nota;
+    }
 
-//     get(){
-//         return this.#nota;
-//     }
+    get(){
+        return this.#nota;
+    }
 
-//     set (valor){
-//         if(valor.length )
+    set (valor){
+        if(valor >= 0 && valor <= 10) {
+            this.#nota = valor;
+        }
+    }
+}
 
-//     }
-// }
+const aluno = new Aluno();
+aluno.nota = 8.5;
+console.log(aluno.nota);
