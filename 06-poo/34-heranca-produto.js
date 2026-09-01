@@ -5,3 +5,29 @@
 //
 // Escreva sua solução abaixo:
 
+class Produto {
+    constructor (nome, preco){
+    this.nome = nome;
+    this.preco = preco;
+    }
+
+    exibirDados(){
+        console.log(`Nome: ${this.nome} | Preço: ${this.preco}`);
+    }
+}
+    class ProdutoDigital extends Produto{
+        constructor(nome, preco, tamanhoArquivo){
+            super(nome, preco);
+            this.tamanhoArquivo = tamanhoArquivo;
+        }
+    
+    exibirDados(){
+        console.log(`Nome: ${this.nome} | Preço: ${this.preco} | Tamanho: ${this.tamanhoArquivo}`);
+    }
+
+    }
+
+
+
+const produto = new ProdutoDigital("Dicionário", 20.99, 15);
+produto.exibirDados();
