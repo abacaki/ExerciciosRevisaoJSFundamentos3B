@@ -6,3 +6,27 @@
 //
 // Escreva sua solução abaixo:
 
+class Pagamento{
+    processar(){
+        console.log(`Método de pagamento`);
+    }
+}
+
+class Pix extends Pagamento{
+    processar(){
+        console.log("Pagamento realizado via Pix");
+    }
+}
+
+class Cartao extends Pagamento{
+    processar(){
+        console.log("Pagamento realizado via Cartão");
+    }
+}
+
+const pagamentos = [
+    new Pix(),
+    new Cartao()
+];
+
+pagamentos.forEach((pagamento) => pagamento.processar());
