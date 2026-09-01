@@ -5,3 +5,19 @@
 //
 // Escreva sua solução abaixo:
 
+// class Aluno {
+//     #nota;
+
+//     constructor(nota){
+//         this.#nota = nota;
+//     }
+
+//     get(){
+//         return this.#nota;
+//     }
+
+//     set (valor){
+//         if(valor.length )
+
+//     }
+// }
